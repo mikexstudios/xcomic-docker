@@ -13,13 +13,16 @@ image to run older PHP scripts for demonstration purposes.
 ## Usage
 
 1. Checking out the repository and making your edits, build the `Dockerfile`:
+   
    `docker build -t mikexstudios/xcomic-docker .`
 
 2. Run it like:
+ 
    `docker run -d -p 80:80 mikexstudios/xcomic-docker`
 
 3. Then access the script from a browser at the docker's IP address. For 
    example if using boot2docker, get the exposed IP address with:
+
    `boot2docker ip`.
 
 4. Install Xcomic with:
